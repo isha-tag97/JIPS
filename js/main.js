@@ -179,10 +179,11 @@ if (title && image && pdf) {
 
   // Ensure the title shows above the image and text is updated
   container.innerHTML = `
-    <h3>${decodeURIComponent(title)}</h3>
+   <h3>${decodeURIComponent(title)}</h3>
     <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
       <img src="${decodeURIComponent(image)}" alt="${decodeURIComponent(title)}" id="certificate-image" style="margin-bottom: 15px;">
       <p id="download-text" style="white-space: nowrap;">Click the image to open/download the PDF file</p>
+        <a href="https://jaininternationalacademy.com/assets/JIPS.mp4"><video width="320" height="240" controls><source src="video.mp4" type="video/mp4"> Your browser does not support the video tag. </video></a>
     </div>
   `;
 
