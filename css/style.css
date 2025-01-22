@@ -565,16 +565,17 @@ h1 {
 }
 /* Center the container on the page */
 main {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    /* height: 100vh;  */
     margin: 0; 
     
 }
 
 /* Style the certificate container */
 .certificate-container {
+    margin-left: 500px;
     cursor: pointer;
     width: 303px;
     text-align: center;
@@ -591,6 +592,7 @@ main {
 
 body {
     background-image: url('./picsvg_download.svg'); 
+
 }
 .container-xxl {
     background-color: transparent; 
